@@ -1,0 +1,215 @@
+{
+  "slug": "instituto-lk",
+  "negocio": {
+    "nome": "Instituto LK",
+    "logo": "brand/logo.png",
+    "whatsapp": "5548988004296",
+    "unidades": [
+      {
+        "bairro": "Trindade · Florianópolis",
+        "endereco": "R. Lauro Linhares, 2010, salas 704/705, Torre A (Comercial São Francisco) – Trindade, Florianópolis – SC, 88036-002",
+        "telefone": "(48) 98800-4296",
+        "horario": "Com hora marcada, pelo WhatsApp"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#7F5B59",
+    "brand2": "#5E4140",
+    "ink": "#2A1F1E",
+    "bg": "#FBF7F4",
+    "pulse": "#D59E99",
+    "radius": "2px",
+    "registro": "editorial",
+    "fontDisplay": "Bodoni Moda",
+    "fontBody": "DM Sans",
+    "tomHero": "claro",
+    "tomCorpo": "claro"
+  },
+  "motivo": "camadas",
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          { "texto": "Tratamentos", "href": "#tratamentos" },
+          { "texto": "Toxina", "href": "#toxina" },
+          { "texto": "Ensino", "href": "#ensino" },
+          { "texto": "Onde fica", "href": "#unidades" }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "split-motivo",
+      "data": {
+        "eyebrow": "Trindade · Floripa",
+        "h1": "Harmonização com método",
+        "lead": "Toxina, preenchimento e rinomodelação planejados rosto a rosto, no instituto da Dra. Letícia Konishi.",
+        "cta": "Agendar avaliação",
+        "ctaSecundario": "Ver tratamentos",
+        "ctaSecundarioHref": "#tratamentos",
+        "selo": "5,0 no Google · 157 avaliações · LK · ",
+        "cardTitulo": "Fale com a recepção",
+        "arte": "grao"
+      }
+    },
+    {
+      "id": "fita",
+      "data": {
+        "itens": [
+          "Full face com toxina",
+          "Preenchimento labial",
+          "Rinomodelação",
+          "Laser CO2",
+          "Exossomos e PDRN",
+          "Pescoço e mãos",
+          "Criolipólise",
+          "Limpeza de pele"
+        ]
+      }
+    },
+    {
+      "id": "numeros",
+      "variant": "faixa",
+      "data": {
+        "titulo": "O que chega antes da primeira consulta",
+        "itens": [
+          { "valor": "5,0", "rotulo": "de nota no Google" },
+          { "valor": "157", "rotulo": "avaliações de pacientes", "contar": 157 },
+          { "valor": "+5.000", "rotulo": "pacientes atendidas no instituto" },
+          { "valor": "+4.000", "rotulo": "alunos formados pela Dra. Letícia" }
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "variant": "pagina",
+      "data": {
+        "eyebrow": "Método 4Beauty",
+        "citacao": "Harmonizar bem é saber o que não fazer.",
+        "autor": "Instituto LK",
+        "texto": [
+          "Cada rosto tem uma estrutura, uma proporção e um jeito de envelhecer. Por isso a consulta começa olhando, medindo e conversando, e só depois escolhendo produto, ponto e quantidade.",
+          "O resultado que se busca aqui é o da paciente que ouve \"você está descansada\", não \"o que você fez?\". Quem chega para uma ruga sai com um plano para o rosto inteiro, no ritmo que fizer sentido para ela."
+        ],
+        "imagem": "midia/sala-trindade.jpg",
+        "imagemAlt": "Sala de atendimento do Instituto LK: maca, bancada de mármore e janela de vidro com vista para o morro da Trindade"
+      }
+    },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "Os tratamentos",
+        "lead": "Do primeiro botox ao plano de rosto inteiro. Na avaliação a equipe indica o que vale fazer, e o que não vale.",
+        "itens": [
+          {
+            "nome": "Full face com toxina botulínica",
+            "descricao": "Testa, glabela e olhos tratados juntos, com doses pensadas para o conjunto. A expressão fica leve e descansada, sem a testa travada.",
+            "icone": "seringa"
+          },
+          {
+            "nome": "Preenchimento labial",
+            "descricao": "Contorno, hidratação e proporção entre os lábios com ácido hialurônico. O objetivo é valorizar a boca que já existe, não desenhar outra.",
+            "icone": "gota"
+          },
+          {
+            "nome": "Rinomodelação",
+            "descricao": "Ajuste do dorso e da ponta do nariz com preenchedor, sem cirurgia. É a técnica que a Dra. Letícia ensina no workshop A Arte da Rinomodelação.",
+            "icone": "rosto"
+          },
+          {
+            "nome": "Laser CO2",
+            "descricao": "Renova a superfície da pele para tratar textura, poros, manchas e linhas finas. A avaliação define a intensidade e o tempo de recuperação.",
+            "icone": "laser"
+          },
+          {
+            "nome": "Exossomos e PDRN",
+            "descricao": "Bioestimulação para a qualidade da pele do rosto e, associada ao microagulhamento, para fios mais finos e sem força no couro cabeludo.",
+            "icone": "molecula"
+          },
+          {
+            "nome": "Pescoço e mãos",
+            "descricao": "As duas áreas que mais entregam a idade e que quase ninguém trata junto com o rosto. Aqui elas entram no planejamento.",
+            "icone": "mao"
+          },
+          {
+            "nome": "Corpo: flacidez e criolipólise",
+            "descricao": "Protocolos para firmeza da pele depois do emagrecimento e para gordura localizada, com indicação feita na avaliação.",
+            "icone": "pele"
+          },
+          {
+            "nome": "Limpeza de pele, drenagem e modeladora",
+            "descricao": "Os cuidados de rotina que preparam a pele e o corpo e mantêm o resultado dos procedimentos entre uma sessão e outra.",
+            "icone": "spa"
+          }
+        ]
+      }
+    },
+    { "custom": "blocos/toxina.html" },
+    { "custom": "blocos/ensino.html" },
+    {
+      "id": "faq",
+      "variant": "colunas",
+      "data": {
+        "titulo": "Perguntas de quem vai pela primeira vez",
+        "itens": [
+          {
+            "p": "Vou ficar com cara de quem fez procedimento?",
+            "r": "Não é o que se busca aqui. O planejamento parte da sua estrutura e das suas proporções, e a dose é a necessária para suavizar, não para congelar ou mudar traços."
+          },
+          {
+            "p": "Quanto tempo dura a toxina botulínica?",
+            "r": "Em média de quatro a seis meses, variando com o metabolismo, a força da musculatura e a área tratada. Quando o movimento começa a voltar, é hora de reaplicar."
+          },
+          {
+            "p": "Por que existe o retorno de 15 dias?",
+            "r": "É quando o efeito da toxina está completo. A revisão serve para conferir a simetria e, se preciso, fazer um pequeno ajuste."
+          },
+          {
+            "p": "Preenchimento labial dói?",
+            "r": "A região é sensível, por isso se usa anestésico tópico e o próprio produto costuma ter anestésico na fórmula. A maioria das pacientes descreve como um desconforto rápido."
+          },
+          {
+            "p": "Preciso já saber o que quero fazer?",
+            "r": "Não. A avaliação existe para isso: você conta o que te incomoda e sai com a indicação do que tratar, em que ordem e o que não precisa ser feito."
+          },
+          {
+            "p": "Com quem eu vou ser atendida?",
+            "r": "Com a Dra. Letícia Konishi ou com a equipe do instituto. Pelo WhatsApp você escolhe e a recepção encontra o horário."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "Na Trindade, no 7º andar do Comercial São Francisco"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Comece pela avaliação",
+        "lead": "Conte pelo WhatsApp o que te incomoda no espelho. A recepção marca a sua consulta com a Dra. Letícia ou com a equipe.",
+        "cta": "Agendar pelo WhatsApp"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "completo",
+      "data": {
+        "links": [
+          { "texto": "Tratamentos", "href": "#tratamentos" },
+          { "texto": "Toxina", "href": "#toxina" },
+          { "texto": "Onde fica", "href": "#unidades" }
+        ],
+        "aviso": "Instituto LK · EPAO 3816 · Dra. Letícia Konishi, CRO-SC 16.593. Resultados variam de paciente para paciente; a indicação de cada procedimento é feita em consulta."
+      }
+    }
+  ]
+}

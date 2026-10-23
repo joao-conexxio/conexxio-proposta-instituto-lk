@@ -1,0 +1,86 @@
+<section class="blk-toxina" id="toxina">
+  <div class="wrap">
+    <div class="blk-toxina__cab" data-reveal>
+      <p class="blk-toxina__eyebrow">Toxina botulínica é ciclo, não aplicação avulsa</p>
+      <h2 class="blk-toxina__titulo">Os seis meses de um botox</h2>
+      <p class="blk-toxina__lead">O efeito chega aos poucos, se completa em duas semanas e vai embora devagar. Entender o caminho é o que evita a testa marcada de novo antes da hora.</p>
+    </div>
+    <ol class="blk-toxina__linha">
+      <li data-reveal style="--d:0ms">
+        <span class="blk-toxina__ico"><!--icone:seringa--></span>
+        <span class="blk-toxina__etapa">Dia 0</span>
+        <strong>A aplicação</strong>
+        <p>Depois da avaliação, pontos e doses marcados para o seu rosto. Leva poucos minutos e você volta para a rotina no mesmo dia.</p>
+      </li>
+      <li data-reveal style="--d:120ms">
+        <span class="blk-toxina__ico"><!--icone:check--></span>
+        <span class="blk-toxina__etapa">Dia 15</span>
+        <strong>O retorno</strong>
+        <p>O efeito está completo. É a consulta de revisão: conferir a simetria e, se preciso, fazer um pequeno ajuste.</p>
+      </li>
+      <li data-reveal style="--d:240ms">
+        <span class="blk-toxina__ico"><!--icone:rosto--></span>
+        <span class="blk-toxina__etapa">Meses 1 a 4</span>
+        <strong>O melhor momento</strong>
+        <p>Expressão leve e descansada. É a fase em que quase ninguém pensa na próxima aplicação, e é por isso que ela costuma atrasar.</p>
+      </li>
+      <li data-reveal style="--d:360ms">
+        <span class="blk-toxina__ico"><!--icone:agenda--></span>
+        <span class="blk-toxina__etapa">Meses 4 a 6</span>
+        <strong>Hora de remarcar</strong>
+        <p>O movimento começa a voltar. Reaplicar agora, antes de a ruga se marcar inteira de novo, é o que mantém o resultado.</p>
+      </li>
+    </ol>
+    <p class="blk-toxina__fim" data-reveal>Não lembra quando fez a última? <a href="#contato">A recepção confere para você</a>.</p>
+  </div>
+</section>
+
+<style>
+.blk-toxina{padding-block:var(--sp-section)}
+.blk-toxina__cab{max-width:42rem;margin-bottom:var(--sp-5)}
+.blk-toxina__eyebrow{
+  margin:0 0 var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);
+  letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand);
+}
+.blk-toxina__titulo{
+  margin:0;font-family:var(--f-display);font-size:var(--t-h2);
+  line-height:var(--lh-display);text-wrap:balance;color:var(--ink);
+}
+.blk-toxina__lead{margin:var(--sp-3) 0 0;color:color-mix(in srgb,var(--ink) 72%,transparent)}
+.blk-toxina__linha{list-style:none;margin:0;padding:0;display:grid;gap:var(--sp-3);counter-reset:passo}
+.blk-toxina__linha li{
+  position:relative;padding:var(--sp-4) var(--sp-3) var(--sp-3);
+  background:color-mix(in srgb,var(--pulse) 12%,var(--bg));
+  border:1px solid color-mix(in srgb,var(--pulse) 40%,transparent);
+  border-radius:var(--radius);
+}
+.blk-toxina__linha li:last-child{background:var(--brand);border-color:var(--brand)}
+.blk-toxina__ico{display:inline-flex;width:2.4rem;height:2.4rem;color:var(--brand)}
+.blk-toxina__ico svg{width:100%;height:100%}
+.blk-toxina__linha li:last-child .blk-toxina__ico{color:var(--pulse)}
+.blk-toxina__etapa{
+  display:block;margin-top:var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);
+  letter-spacing:var(--eyebrow-track);text-transform:uppercase;
+  color:color-mix(in srgb,var(--ink) 62%,transparent);
+}
+.blk-toxina__linha li:last-child .blk-toxina__etapa{color:var(--pulse)}
+.blk-toxina__linha strong{
+  display:block;margin-top:.3em;font-family:var(--f-display);font-size:1.55rem;
+  font-weight:500;line-height:1.15;color:var(--ink);
+}
+.blk-toxina__linha li:last-child strong{color:var(--bg)}
+.blk-toxina__linha p{margin:var(--sp-2) 0 0;font-size:.95rem;line-height:1.55;color:color-mix(in srgb,var(--ink) 72%,transparent)}
+.blk-toxina__linha li:last-child p{color:color-mix(in srgb,var(--bg) 85%,transparent)}
+.blk-toxina__fim{margin:var(--sp-4) 0 0;font-size:1.05rem;color:color-mix(in srgb,var(--ink) 80%,transparent)}
+.blk-toxina__fim a{color:var(--brand);font-weight:600;text-underline-offset:.2em}
+@media (min-width:48rem){
+  .blk-toxina__linha{grid-template-columns:repeat(2,1fr)}
+}
+@media (min-width:72rem){
+  .blk-toxina__linha{grid-template-columns:repeat(4,1fr)}
+  .blk-toxina__linha li:not(:last-child)::after{
+    content:"";position:absolute;top:calc(var(--sp-4) + 1.2rem);right:calc(-1 * var(--sp-3));
+    width:var(--sp-3);height:1px;background:color-mix(in srgb,var(--brand) 45%,transparent);
+  }
+}
+</style>
